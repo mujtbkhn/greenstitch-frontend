@@ -1,8 +1,32 @@
-# React + Vite
+# Greenstitch Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and intuitive Todo application that allows users to create, manage, and organize their tasks with ease.
 
-Currently, two official plugins are available:
+## Setup Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/mujtbkhn/greenstitch-frontend
+2. **Navigate to the project directory:**
+   ```bash
+   cd greenstitch-frontend
+3. **Install Dependencies**
+   ```bash
+   npm install
+4. **Start the development server**
+   ```bash
+   npm run dev
+
+# Features
+## Create a Todo:
+
+-Users can create a new todo item with a title and an optional description.
+
+## Update Todo State:
+
+-Users can change the state of a todo from "Pending" to "In Progress" and from "In Progress" to "Completed".
+-Todos move between their respective sections based on their state.
+
+## Drag and Drop Reorder:
+
+-Users can reorder todos within each section (Pending, In Progress, Completed) using drag-and-drop functionality.
