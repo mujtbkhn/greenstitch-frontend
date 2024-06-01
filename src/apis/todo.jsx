@@ -1,5 +1,5 @@
 import axios from "axios";
-const URL = "http://localhost:3000";
+const URL = "https://greenstitch-backend.onrender.com";
 
 export const createTodo = async (title, description) => {
   try {
